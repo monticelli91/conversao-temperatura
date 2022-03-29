@@ -11,5 +11,5 @@ docker image build -t YOUR_NAMESPACE/IMAGE_NAME:VERSION_TAG .
 # Execute o container
 docker container run -p YOUR_PORT:CONTAINER_PORT --name APP_NAME YOUR_NAMESPACE/IMAGE_NAME:VERSION_TAG
 
-# Acesse a aplicação pela porta 8080
+# Acesse a aplicação pela porta publicada
 http://localhost:YOUR_PORT
